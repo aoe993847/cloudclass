@@ -1,5 +1,12 @@
 .big{
-    margin: 0;
-    width: 600px;
-    justify-content: center;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 1520px;
+    display: flex;
+}
+iframe{
+    margin-right: 30px;
+}
+span{
+    width: 555px;
 }
