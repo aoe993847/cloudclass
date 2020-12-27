@@ -327,6 +327,10 @@
     border-radius: 1rem;
   }
   
+  ul li{
+    list-style-type:none;
+  }
+
   .videos .video-list__item {
     margin: 0.5rem 0;
   }
