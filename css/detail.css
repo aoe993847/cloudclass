@@ -1,12 +1,12 @@
 .big{
     margin-left: 20px;
     margin-top: 20px;
-    width: 1520px;
+    width: 100%;
     display: flex;
 }
 iframe{
     margin-right: 30px;
 }
 span{
-    width: 555px;
+    width: 30%;
 }
