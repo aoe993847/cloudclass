@@ -1,26 +1,34 @@
 .navba
 {
-    
+    background-color: rgb(241, 241, 241);
     width: 100%;
     height: 80px;
-    
     position:fixed;
     z-index: 2;
 }
+.navbadown
+{
+    background-color: darksalmon;
+    width: 100%;
+    height: 80px;
+
+}
+
 .title
 {
     margin-left: 10%;
     position: absolute;
     text-align:center;
-    line-height:100px;
+    line-height:80px;
     font-size: 250%;
-    color: yellow;
+    color: rgb(8, 8, 179);
 }
+
 .select1{
     background-color: rgba(245, 239, 239, 0.911);
     position: absolute;
-    margin-left: 60%;
-    width: 8%;
+    margin-left: 58%;
+    width: 120px;
     height: 100%;
     border-style: solid;
     border-radius: 15px;
@@ -29,28 +37,29 @@
 .stext
 {
     width: 50%;
-    margin-top: 22%;
+    margin-top: 20%;
     margin-left: 26%;
     
 }
 .Options
 {
     margin-top: 30px;
-    width: 280px;
+    width: 290px;
     background-color: rgba(245, 239, 239, 0.911);
     display: none;
 }
 .select2{
     background-color: rgba(245, 239, 239, 0.911);
     position: absolute;
-    margin-left: 68.4%;
-    width: 8%;
+    margin-left: 68%;
+    width: 120px;
     height: 100%;
     border-style: solid;
     border-radius: 15px;
 }
 .Options2
 {
+   
     margin-top: 30px;
      width: 130px;
     display: none;
@@ -91,49 +100,307 @@ div:hover.Otext
 .carousel{
     background-color: red;
     width: 100%;
-    height: 200px;
+    height: 500px;
 }
+
 .cimage
 {
+    height: 500px;
     width: 100%;
-    height: 200px;
 }
 .maintext
 {
+    margin-top: 1%;
+    height: 850px;
     width: 100%;
-    height: 1000px;
     display: flex;
 }
 .presentation
 {
-    height: 50%;
-    width: 36.8%;
+    height: 70%;
+    width: 560px;
     margin-left: 11%;
 }
 .content
 {
-    background-color: teal;
-    width: 36.8%;
-    height: 50%;
+    margin-left: 1%;
+    background-color: rgb(193, 197, 207);
+    width: 560px;
+    height: 70%;
    
+}
+.mtstyle
+{
+    margin-left: 30%;
+}
+.maintitle
+{
+    color: rgb(8, 8, 179);
 }
 .footer
 {
-    background-color: red;
+    background-color: rgb(223, 219, 219);
     width: 100%;
     height: 130px;
-    position: relative;
-    
+    position: absolute;
 }
 .footertext
 {
-    left: 16%;
-    top: 22%;
-    width: 70%;
-    position: absolute;
-    background-color: yellow;
+    position: relative;
     text-align:center;
+    margin-top: 33px;
+    margin-left: 30%;
+    width: 40%;
     
 }
 
+/* Slider */
+.slick-slider
+{
+    position: relative;
 
+    display: block;
+    box-sizing: border-box;
+
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+
+    height: auto;
+
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+.slick-dots{
+    
+    position: relative;
+    top: 450px;
+}
+@media screen and (max-width:1370px)
+{
+    .presentation{
+        margin-left: 8%;
+    } 
+}
+
+@media screen and (max-width:1300px)
+{
+    .presentation{
+        margin-left: 4%;
+    } 
+}
+@media screen and (max-width:1200px)
+{
+    
+    .select1{
+        margin-left: 55%;
+    }
+    .select2{
+        margin-left: 66%;
+    }
+    .presentation{
+        margin-left: 1%;
+    }
+}
+@media screen and (max-width:1170px)
+{
+    .maintext{
+        display: flow-root;
+        height: 1300px;
+    }
+    .presentation{
+        height: 600px;
+        width: 700px;
+        margin-left: 20%;
+    }
+    .content{
+        margin-top: 1%;
+        margin-left: 20%;
+        background-color: rgb(193, 197, 207);
+        height: 600px;
+        width: 700px;
+   }
+    
+}
+
+ @media screen and (max-width:1100px)
+{
+    .select1{
+        margin-left: 50%;
+    }
+    .select2{
+        margin-left: 64%;
+    }
+    .footertext{
+        margin-left: 20%;
+        width: 63%;
+        }
+}
+@media screen and (max-width:1000px)
+{
+    .presentation{
+        margin-left: 15%;
+    }
+    .content{
+        margin-left: 15%;
+   }
+    
+}
+@media screen and (max-width:860px)
+{
+    .presentation{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .content{
+        width: 100%;
+        margin-left: 0%;
+   }
+    
+}
+ @media screen and (max-width:843px)
+{
+    .select1{
+        margin-left: 43%;
+    }
+    .select2{
+        margin-left: 60%;
+    } 
+} 
+@media screen and (max-width:700px)
+{
+    .select1{
+        margin-left: 40%;
+    }
+    .select2{
+        margin-left: 58%;
+    }
+    .title
+    {
+        margin-left: 0%;
+    }
+    .footertext{
+        margin-left: 15%;
+        width: 70%;
+        }
+} 
+@media screen and (max-width:670px)
+{
+    .select1{
+        margin-left: 0%;
+    }
+    .select2{
+        margin-left: 40%;
+    }
+    .title
+    {
+        display: none;
+    }
+    .footertext{
+    margin-left: 7%;
+    width: 90%;
+    
+    }
+}
