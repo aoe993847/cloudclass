@@ -1,12 +1,16 @@
 .big{
-    margin-left: 20px;
-    margin-top: 20px;
+    margin: 30px;
     width: 100%;
     display: flex;
 }
-iframe{
+iframe{ 
     margin-right: 30px;
 }
 span{
+    margin-right:30px ;
+    padding: 20px;
     width: 30%;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow:3px 3px 5px 6px #7c7c7c;
 }
