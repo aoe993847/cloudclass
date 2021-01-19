@@ -2,13 +2,15 @@
 $('.single-item').slick({
     arrows :false,
     autoplay: true,
-    autoplaySpeed:1000,
+    autoplaySpeed:6800,
     dots: true,
+    
     
 }  );
 $('.slide-1').slick({
+    autoplaySpeed:setInterval("randomImg()",6800),
+   
     
-    stop:10,
     
 }  );
 
@@ -127,16 +129,7 @@ class Color {
       return pixels;
     }
   
-    // 绘制文字
-    drawText(text) {
-      let ctx = this.context;
-      let center = this.getCenter();
-      ctx.font = "10000px 微软雅黑 bold";
-      ctx.textAlign = "center";
-      ctx.textBaseline = "middle";
-      ctx.fillStyle = "#fff";
-      ctx.fillText(text, center.x, center.y);
-    }
+    
   
     // 绘制图片
     drawImage(img) {
