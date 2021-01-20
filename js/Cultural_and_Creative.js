@@ -163,7 +163,7 @@
 
 /* This part is just for the demo,
 not actually part of the plugin */
-$('.card').paginate(8);
+$('.videos').paginate(2);
 
 
 

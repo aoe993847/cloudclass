@@ -369,6 +369,7 @@ a {
   -webkit-border-radius: 1rem;
   -moz-border-radius: 1rem;
   border-radius: 1rem;
+  text-align: center;
 }
 
 ul li {
@@ -432,6 +433,23 @@ ul li {
   -webkit-border-radius: 0.5rem;
   -moz-border-radius: 0.5rem;
   border-radius: 0.5rem;
+}
+
+ul.pagination {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+ul.pagination li {
+  display: inline;
+}
+
+ul.pagination li a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
 }
 
 /* Footer */
@@ -519,6 +537,9 @@ ul li {
   .Right_Content {
     margin-left: 0%;
     max-width: 100%;
+  }
+  ul.pagination li a {
+    padding: 8px 5px;
   }
 }
 
