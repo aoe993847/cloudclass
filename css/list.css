@@ -493,9 +493,6 @@ ul.pagination li a {
     width: 130px;
     height: 70px;
   }
-}
-
-@media screen and (max-width:700px) {
   .title {
     margin-left: 0%;
     display: none;
@@ -505,7 +502,7 @@ ul.pagination li a {
     width: 70%;
   }
   .search {
-    width: 100%;
+    width: 90%;
     margin-left: 10%;
   }
 }
@@ -524,7 +521,7 @@ ul.pagination li a {
     display: block;
   }
   .search {
-    width: 100%;
+    width: 90%;
   }
 }
 
