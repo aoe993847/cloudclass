@@ -2,18 +2,11 @@
 $('.single-item').slick({
     arrows :false,
     autoplay: true,
-    autoplaySpeed:6800,
+    autoplaySpeed:6300,
     dots: true,
     
     
 }  );
-$('.slide-1').slick({
-    autoplaySpeed:setInterval("randomImg()",6800),
-   
-    
-    
-}  );
-
 class Color {
     constructor(r = 0, g = 0, b = 0, a = 1) {
       this.r = r;
