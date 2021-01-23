@@ -75,10 +75,6 @@ img {
     width:  50px;
 }
 
-.img{
-  justify-content: flex-end;
-}
-
 .footer {
     background-color: rgb(223, 219, 219);
     width: 100%;
