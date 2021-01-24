@@ -215,27 +215,30 @@ ul.drop-down-menu ul li:hover>ul {
 }
 
 .tab1:checked+label {
-  background-color: rgb(0, 162, 255);
+  background-color: rgb(0, 0, 255);
   color: white;
   font-size: 1.5rem;
+  font-weight:bold;
   box-shadow: 0 -1px 0 #fff inset;
   cursor: default;
 }
 
 .tab2:checked+label {
-  background-color: rgb(0, 162, 255);
+  background-color: rgb(0, 0, 255);
   color: white;
   font-size: 1.5rem;
+  font-weight:bold;
   box-shadow: 0 -1px 0 #fff inset;
   cursor: default;
 }
 
 .tab3:checked+label {
-  background-color: rgb(0, 162, 255);
-  box-shadow: 0 -1px 0 #fff inset;
+  background-color: rgb(0, 0, 255);
   color: white;
-  cursor: default;
   font-size: 1.5rem;
+  font-weight:bold;
+  box-shadow: 0 -1px 0 #fff inset;
+  cursor: default;
 }
 
 .tab1:checked+label:hover {
