@@ -10,6 +10,9 @@
     height: 500px;
     width: 100%;
 }
+/* 動畫 */
+
+/* 動畫 */
 .maintext
 {
     margin-top: 1%;
@@ -19,7 +22,7 @@
 }
 .mbutton
 {
-    height: 70%;
+    height: 600px;
     width: 560px;
     color: red;
     
@@ -51,28 +54,28 @@
     position: absolute;
     width: 100px;
     height: 60px;
-    
+   
     
 }
 .move
 {
-    margin-top: -3%;
-    margin-left: 24%;
+    margin-top: -50px;
+    margin-left: 345px;
 }
 .move2
 {
-    margin-top: -3%;
-    margin-left: 9%;
+    margin-top: -50px;
+    margin-left: 120px;
 }
 .move3
 {
-    margin-top: -15%;
-    margin-left: 6%;
+    margin-top: -210px;
+    margin-left: 80px;
 }
 .move4
 {
-    margin-top: -15%;
-    margin-left: 27%;
+    margin-top: -210px;
+    margin-left: 370px;
 }
 .move5
 {
@@ -82,6 +85,7 @@
 
 .stext
 {
+    
     width: 50%;
     margin-top: 12%;
     margin-left: 26%;
@@ -137,6 +141,7 @@
     border-width: 2px;
     border-color: transparent transparent yellow  transparent ;
     background-color: yellow;
+    border-radius: 10px;
 }
 
 .select2:hover .Options2
@@ -155,7 +160,7 @@ div:hover.Otext
 
 .presentation
 {
-    height: 70%;
+    height: 600px;
     width: 560px;
     margin-left: 11%;
 }
@@ -263,24 +268,130 @@ div:hover.Otext
     
     position: relative;
     top: 450px;
-}
-
-@media screen and (max-width:1200px)
-{
-    .presentation{
-        margin-left: 1%;
-    }
-}
-@media screen and (max-width:1170px)
-{
-    .maintext{
-        display: flow-root;
-        height: 1300px;
-    }
     
 }
 
- 
+
+
+@media screen and (max-width:1350px)
+{
+    .presentation{
+        margin-left: 1%;
+        
+    }
+    .mbutton
+    {
+        margin-left: 5px;
+    }
+}
+@media screen and (max-width:1150px)
+{
+    .maintext{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .presentation{
+        margin-top: 1%;
+        margin-left: 25%;
+    }
+    .mbutton
+    {
+        margin-left: 25%;
+    }
+}
+@media screen and (max-width:850px)
+{
+    .maintext{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .presentation{
+        margin-top: 1%;
+        margin-left: 15%;
+        
+    }
+    .mbutton
+    {
+        margin-left: 15%;
+    }
+}
+@media screen and (max-width:700px)
+{
+    .maintext{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .presentation{
+        width: 100%;
+        margin-top: 1%;
+        margin-left: 0%;
+    }
+    .mbutton
+    {
+        
+        margin-left: 0%;
+    }
+    
+
+}
+@media screen and (max-width:592px)
+{
+    .maintext{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .presentation{
+        display: none;
+    }
+    .mbutton
+    {
+        width: 478px;
+        margin-left:-1%;
+    }
+    .move
+{
+    margin-top: -23px;
+    margin-left: 280px;
+}
+.move2
+{
+    margin-top: -23px;
+    margin-left: 100px;
+}
+.move3
+{
+    margin-top: -200px;
+    margin-left: 80px;
+}
+.move4
+{
+    margin-top: -200px;
+    margin-left: 310px;
+}
+.move5
+{
+    margin-top: -240px;
+    margin-left: 195px;
+}
+.mtext
+{
+    margin-left: 43%;
+    margin-top: -350px;
+    font-size: 300%;
+    color: black;
+}
+.mtext1
+{
+    margin-left: 38%;
+    margin-top: -28px;
+    font-size: 280%;
+    color: black;
+}
+}
 
 body {
   width: 100%;
