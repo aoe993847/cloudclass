@@ -546,8 +546,8 @@ ul.pagination li a {
     height: 70px;
   }
   .title {
+    margin-top: -50px;
     margin-left: 0%;
-    display: none;
   }
   .footertext {
     margin-left: 15%;
@@ -568,15 +568,18 @@ ul.pagination li a {
   .videos .video-list__item a h2 {
     font-size: 1rem;
     line-height: 2.25rem;
-    width: 100%;
   }
   .videos .video-list__item a h6 {
     font-size: 0.5rem;
-    width: 100%;
     padding-left: 1rem;
   }
-}
 
+}
+@media screen and (max-width:700px) {
+  .footertext {
+
+  }
+}
 @media screen and (max-width:670px) {
   .footertext {
     margin-left: 7%;
@@ -595,7 +598,7 @@ ul.pagination li a {
   }
 }
 
-@media screen and (max-width:550px) {
+@media screen and (max-width:580px) {
   .menu {
     margin-left: 10%;
     width: 80%;
@@ -607,5 +610,8 @@ ul.pagination li a {
   }
   ul.pagination li a {
     padding: 8px 5px;
+  }
+  .content {
+    width: 200px;
   }
 }
