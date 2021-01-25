@@ -1,345 +1,301 @@
-
-.carousel{
-    background-color:black;
+.carousel {
+    background-color: black;
     width: 100%;
     height: 500px;
 }
 
-.cimage
-{
+.cimage {
     height: 500px;
     width: 100%;
 }
+
 /* 動畫 */
 
 /* 動畫 */
-.maintext
-{
+
+.maintext {
     margin-top: 1%;
     height: 850px;
     width: 100%;
     display: flex;
 }
-.mbutton
-{
+
+.mbutton {
     height: 600px;
     width: 560px;
     color: red;
-    
     margin-left: 26%;
-    
 }
-.presentation2
-{
+
+.presentation2 {
     height: 100%;
-    width:  100%;
+    width: 100%;
 }
-.mtext
-{
+
+.mtext {
     margin-left: 43%;
     margin-top: -325px;
     font-size: 300%;
     color: black;
 }
-.mtext1
-{
+
+.mtext1 {
     margin-left: 38%;
     margin-top: -35px;
     font-size: 300%;
     color: black;
 }
 
-.select2{
+.select2 {
     border-radius: 15px;
     position: absolute;
     width: 100px;
     height: 60px;
-   
-    
 }
-.move
-{
+
+.move {
     margin-top: -50px;
     margin-left: 345px;
 }
-.move2
-{
+
+.move2 {
     margin-top: -50px;
     margin-left: 120px;
 }
-.move3
-{
+
+.move3 {
     margin-top: -210px;
     margin-left: 80px;
 }
-.move4
-{
+
+.move4 {
     margin-top: -210px;
     margin-left: 370px;
 }
-.move5
-{
+
+.move5 {
     margin-top: -260px;
     margin-left: 235px;
 }
 
-.stext
-{
-    
+.stext {
     width: 50%;
     margin-top: 12%;
     margin-left: 26%;
     font-size: 110%;
 }
-.Options2
-{
-   
-    
+
+.Options2 {
     display: none;
     z-index: initial;
-    background-color:rgb(245, 239, 239);
+    background-color: rgb(245, 239, 239);
 }
-.bigtype
-{
+
+.bigtype {
     width: 70px;
 }
-.type3
-{
+
+.type3 {
     width: 160px;
-    
 }
-.type
-{
+
+.type {
     width: 140px;
 }
-.type2
-{
+
+.type2 {
     width: 160px;
 }
-.type5
-{
+
+.type5 {
     width: 200px;
 }
-.corner
-{
+
+.corner {
     border-radius: 15px;
 }
-.radiustop
-{
+
+.radiustop {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
-.radiusbottom
-{
-    border-bottom-left-radius:15px;
-    border-bottom-right-radius:15px;
+
+.radiusbottom {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
-.select2:hover .stext
-{
-    
-    border-style:solid;
+
+.select2:hover .stext {
+    border-style: solid;
     border-width: 2px;
-    border-color: transparent transparent yellow  transparent ;
+    border-color: transparent transparent yellow transparent;
     background-color: yellow;
     border-radius: 10px;
 }
 
-.select2:hover .Options2
-{
-    display:block;
-    cursor:pointer;
+.select2:hover .Options2 {
+    display: block;
+    cursor: pointer;
 }
 
-div:hover.Otext
-{
+div:hover.Otext {
     background-color: darkgrey;
 }
 
-
-
-
-.presentation
-{
+.presentation {
     height: 600px;
     width: 560px;
     margin-left: 11%;
 }
 
-
-
-.footer
-{
+.footer {
     background-color: rgb(223, 219, 219);
     width: 100%;
     height: 130px;
     position: absolute;
 }
-.footertext
-{
+
+.footertext {
     position: relative;
-    text-align:center;
+    text-align: center;
     margin-top: 33px;
     margin-left: 30%;
     width: 40%;
-    
 }
 
-
-.slick-slider .slick-track,
-.slick-slider .slick-list
-{
+.slick-slider .slick-track, .slick-slider .slick-list {
     -webkit-transform: translate3d(0, 0, 0);
-       -moz-transform: translate3d(0, 0, 0);
-        -ms-transform: translate3d(0, 0, 0);
-         -o-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
 }
 
-.slick-track
-{
+.slick-track {
     position: relative;
     top: 0;
     left: 0;
-
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-.slick-track:before,
-.slick-track:after
-{
-    display: table;
 
+.slick-track:before, .slick-track:after {
+    display: table;
     content: '';
 }
-.slick-track:after
-{
+
+.slick-track:after {
     clear: both;
 }
-.slick-loading .slick-track
-{
+
+.slick-loading .slick-track {
     visibility: hidden;
 }
 
-.slick-slide
-{
+.slick-slide {
     display: none;
     float: left;
-
     height: 100%;
     min-height: 1px;
 }
-[dir='rtl'] .slick-slide
-{
+
+[dir='rtl'] .slick-slide {
     float: right;
 }
-.slick-slide img
-{
+
+.slick-slide img {
     display: block;
 }
-.slick-slide.slick-loading img
-{
+
+.slick-slide.slick-loading img {
     display: none;
 }
-.slick-slide.dragging img
-{
+
+.slick-slide.dragging img {
     pointer-events: none;
 }
-.slick-initialized .slick-slide
-{
+
+.slick-initialized .slick-slide {
     display: block;
 }
-.slick-loading .slick-slide
-{
+
+.slick-loading .slick-slide {
     visibility: hidden;
 }
-.slick-vertical .slick-slide
-{
+
+.slick-vertical .slick-slide {
     display: block;
-
     height: auto;
-
     border: 1px solid transparent;
 }
+
 .slick-arrow.slick-hidden {
     display: none;
 }
-.slick-dots{
-    
+
+.slick-dots {
     position: relative;
     top: 450px;
-    
 }
 
-
-
-@media screen and (max-width:1350px)
-{
-    .presentation{
+@media screen and (max-width:1350px) {
+    .presentation {
         margin-left: 1%;
-        
     }
-    .mbutton
-    {
+    .mbutton {
         margin-left: 5px;
     }
 }
-@media screen and (max-width:1150px)
-{
-    .maintext{
-        display: block;
-        width: 100%;
-        height: 100%;
-    }
-    .presentation{
-        margin-top: 1%;
-        margin-left: 25%;
-    }
-    .mbutton
-    {
-        margin-left: 25%;
-    }
-}
-@media screen and (max-width:850px)
-{
-    .maintext{
-        display: block;
-        width: 100%;
-        height: 100%;
-    }
-    .presentation{
-        margin-top: 1%;
-        margin-left: 15%;
-        
-    }
-    .mbutton
-    {
-        margin-left: 15%;
-    }
-}
-@media screen and (max-width:700px)
-{
-    .maintext{
-        display: block;
-        width: 100%;
-        height: 100%;
-    }
-    .presentation{
-        width: 100%;
-        margin-top: 1%;
-        margin-left: 0%;
-    }
-    .mbutton
-    {
-        
-        margin-left: 0%;
-    }
-    
 
+@media screen and (max-width:1150px) {
+    .maintext {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .presentation {
+        margin-top: 1%;
+        margin-left: 25%;
+    }
+    .mbutton {
+        margin-left: 25%;
+    }
 }
-@media screen and (max-width:592px)
-{
-    .maintext{
+
+@media screen and (max-width:850px) {
+    .maintext {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .presentation {
+        margin-top: 1%;
+        margin-left: 15%;
+    }
+    .mbutton {
+        margin-left: 15%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .maintext {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .presentation {
+        width: 100%;
+        margin-top: 1%;
+        margin-left: 0%;
+    }
+    .mbutton {
+        margin-left: 0%;
+    }
+}
+
+@media screen and (max-width:592px) {
+    .maintext {
         display: block;
         width: 100%;
         height: 10000px;
@@ -348,47 +304,40 @@ div:hover.Otext
     .mbutton
     {
         width: 478px;
-        margin-left:-1%;
+        margin-left: -1%;
     }
-    .move
-{
-    margin-top: -23px;
-    margin-left: 280px;
-}
-.move2
-{
-    margin-top: -23px;
-    margin-left: 100px;
-}
-.move3
-{
-    margin-top: -200px;
-    margin-left: 80px;
-}
-.move4
-{
-    margin-top: -200px;
-    margin-left: 310px;
-}
-.move5
-{
-    margin-top: -240px;
-    margin-left: 195px;
-}
-.mtext
-{
-    margin-left: 43%;
-    margin-top: -350px;
-    font-size: 300%;
-    color: black;
-}
-.mtext1
-{
-    margin-left: 38%;
-    margin-top: -28px;
-    font-size: 280%;
-    color: black;
-}
+    .move {
+        margin-top: -23px;
+        margin-left: 280px;
+    }
+    .move2 {
+        margin-top: -23px;
+        margin-left: 100px;
+    }
+    .move3 {
+        margin-top: -200px;
+        margin-left: 80px;
+    }
+    .move4 {
+        margin-top: -200px;
+        margin-left: 310px;
+    }
+    .move5 {
+        margin-top: -240px;
+        margin-left: 195px;
+    }
+    .mtext {
+        margin-left: 43%;
+        margin-top: -350px;
+        font-size: 300%;
+        color: black;
+    }
+    .mtext1 {
+        margin-left: 38%;
+        margin-top: -28px;
+        font-size: 280%;
+        color: black;
+    }
 }
 @media screen and (max-width:499px)
 {
@@ -447,10 +396,10 @@ div:hover.Otext
 }
 
 body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 #container {
