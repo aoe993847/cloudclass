@@ -52,6 +52,7 @@
   margin-left: 10px;
   margin-left: 10px;
 }
+
 .word {
   margin-left: 10px;
   margin-top: 10px;
@@ -62,24 +63,31 @@
   border-radius: 20px;
   box-shadow: 3px 3px 5px 6px #7c7c7c;
 }
+
 .up {
   display: flex;
 }
+
 iframe {
   margin-right: 30px;
 }
+
 img {
   height: 50px;
   width: 50px;
 }
+
 /* 新增的 */
+
 .Related-videos {
   display: flex;
   flex-direction: row;
 }
+
 .Related-videos .img-ob {
   background-color: gray;
 }
+
 .Related-videos img {
   width: 200px;
   height: 200px;
