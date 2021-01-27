@@ -2,7 +2,7 @@
 $('.single-item').slick({
     arrows :false,
     autoplay: true,
-    autoplaySpeed:100000,
+    autoplaySpeed:6400,
     dots: true,
     
     
