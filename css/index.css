@@ -3,7 +3,11 @@
     width: 100%;
     height: 500px;
 }
-
+.slide
+{
+    width: 100%;
+    height: 100%;
+}
 .cimage {
     overflow:visible;
     height: 500px;
@@ -13,10 +17,54 @@
     overflow:visible;
     
 }
+.circle {
+    
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 37%;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background: #093b62;
+    animation-name:circle ;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    animation-delay: 0s;
+    
+    }
+    
+      @keyframes circle{
+        0%{
+            Transform:rotate(0);
+            }
+            100%{
+            Transform:rotate(360deg);
+            }
+     }
+.ctp{
+    color: red;
+    font-size: 45px;
 
-/* 動畫 */
-
-/* 動畫 */
+ }
+ .mv1{
+    margin-top: -40px;
+    margin-left: 190px;
+    
+ }
+ .mv2{
+    margin-top: -70px;
+    margin-left: 230px;
+    
+ }
+ .mv3{
+    margin-top: -48px;
+    margin-left: 280px;
+ }
+ .mv4{
+    margin-top: -40px;
+    margin-left:320px;
+ }
+ 
 
 .maintext {
     margin-top: 1%;
@@ -293,8 +341,10 @@ div:hover.Otext {
 }
 
 @media screen and (max-width:700px) {
-        
-     
+    .circle {
+        margin-left: 3%;
+        }
+    
     .maintext {
         display: block;
         width: 100%;
@@ -354,9 +404,21 @@ div:hover.Otext {
         font-size: 280%;
         color: black;
     }
+    .circle {
+        margin-left:3%;
+        }
 }
 @media screen and (max-width:499px)
 {
+    .circle
+    {
+        display: none;
+    }
+    .ctp{
+        display: none;
+    
+     }
+    
     .footer {
         height: 200px;
       
@@ -412,6 +474,9 @@ div:hover.Otext {
     width: 40px;
     font-size: 15px;
 }
+.circle {
+    margin-left: 35%;
+    }
 }
 
 body {
