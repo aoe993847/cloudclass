@@ -76,7 +76,7 @@
 .mbutton {
     height: 600px;
     width: 560px;
-    color: red;
+    color: purple;
     margin-left: 26%;
 }
 
@@ -108,12 +108,12 @@
 
 .move {
     margin-top: -50px;
-    margin-left: 345px;
+    margin-left: 325px;
 }
 
 .move2 {
     margin-top: -50px;
-    margin-left: 120px;
+    margin-left: 115px;
 }
 
 .move3 {
@@ -128,14 +128,16 @@
 
 .move5 {
     margin-top: -260px;
-    margin-left: 235px;
+    margin-left: 223px;
 }
 
 .stext {
-    width: 50%;
+    background-color: pink;
+    width: 60%;
     margin-top: 12%;
     margin-left: 26%;
     font-size: 110%;
+    border-radius: 10px;
 }
 
 .Options2 {
@@ -145,22 +147,31 @@
 }
 
 .bigtype {
+   
     width: 70px;
 }
-
+.type3 {
+    width: 160px;
+}
 .type3 {
     width: 160px;
 }
 
-.type {
+.type4 {
+    margin-top: -16px;
     width: 140px;
 }
-
+.type {
+    
+    width: 140px;
+}
 .type2 {
+    margin-top: -16px;
     width: 160px;
 }
 
 .type5 {
+    margin-top: -16px;
     width: 200px;
 }
 
@@ -179,8 +190,6 @@
 }
 
 .select2:hover .stext {
-    border-style: solid;
-    border-width: 2px;
     border-color: transparent transparent yellow transparent;
     background-color: yellow;
     border-radius: 10px;
@@ -410,10 +419,7 @@ div:hover.Otext {
 }
 @media screen and (max-width:499px)
 {
-    .circle
-    {
-        display: none;
-    }
+    
     .ctp{
         display: none;
     
@@ -475,7 +481,7 @@ div:hover.Otext {
     font-size: 15px;
 }
 .circle {
-    margin-left: 35%;
+    margin-left: 3%;
     }
 }
 
