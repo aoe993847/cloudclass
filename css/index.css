@@ -5,8 +5,13 @@
 }
 
 .cimage {
+    overflow:visible;
     height: 500px;
     width: 100%;
+}
+.ele {
+    overflow:visible;
+    
 }
 
 /* 動畫 */
@@ -15,7 +20,7 @@
 
 .maintext {
     margin-top: 1%;
-    height: 850px;
+    height: 130%;
     width: 100%;
     display: flex;
 }
@@ -240,11 +245,16 @@ div:hover.Otext {
 }
 
 @media screen and (max-width:1350px) {
+    .maintext {
+        display: block;
+        width: 100%;
+        height: 1250px;
+    }
     .presentation {
-        margin-left: 1%;
+        margin-left: 25%;
     }
     .mbutton {
-        margin-left: 5px;
+        margin-left: 25%;
     }
 }
 
@@ -252,7 +262,7 @@ div:hover.Otext {
     .maintext {
         display: block;
         width: 100%;
-        height: 100%;
+        height: 1250px;
     }
     .presentation {
         margin-top: 1%;
@@ -264,10 +274,14 @@ div:hover.Otext {
 }
 
 @media screen and (max-width:850px) {
+    .footer {
+        height: 180px;
+      
+    }
     .maintext {
         display: block;
         width: 100%;
-        height: 100%;
+        height: 1250px;
     }
     .presentation {
         margin-top: 1%;
@@ -279,10 +293,12 @@ div:hover.Otext {
 }
 
 @media screen and (max-width:700px) {
+        
+     
     .maintext {
         display: block;
         width: 100%;
-        height: 100%;
+        height: 1250px;
     }
     .presentation {
         width: 100%;
@@ -298,7 +314,7 @@ div:hover.Otext {
     .maintext {
         display: block;
         width: 100%;
-        height: 1300px;
+        height: 1250px;
     }
     
     .mbutton
@@ -341,7 +357,10 @@ div:hover.Otext {
 }
 @media screen and (max-width:499px)
 {
-
+    .footer {
+        height: 200px;
+      
+    }
     .mbutton
     {
         width: 300px;
