@@ -85,12 +85,13 @@ img {
 }
 
 .Related-videos .img-ob {
-  background-color: gray;
+  background-color:white;
 }
 
 .Related-videos img {
   width: 200px;
   height: 200px;
+  margin-left: 10px;
 }
 
 .footer {
