@@ -17,7 +17,9 @@
   width: 100%;
   height: 80px;
 }
-
+.video{
+  margin-top: 10px;
+}
 .title {
   margin-left: 10%;
   position: absolute;
@@ -46,13 +48,29 @@
   border-radius: 50%;
 }
 
-.play {
-  width: 60%;
-  margin-top: 10px;
-  margin-left: 10px;
-  margin-left: 10px;
+.video {
+width: 50%;
 }
-
+.content {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width:80%;
+}
+.Related-videos{
+  width: 100%;
+}
+.play-list{
+  width: 20%;
+}
+.play-list:hover{
+  background: white;
+  border: 1px solid gray;
+  -webkit-transition: background-color 0.25s ease;
+  -moz-transition: background-color 0.25s ease;
+  -o-transition: background-color 0.25s ease;
+  transition: background-color 0.25s ease;
+}
 .word {
   margin-left: 10px;
   margin-top: 10px;
@@ -62,10 +80,6 @@
   border: 1px solid black;
   border-radius: 20px;
   box-shadow: 3px 3px 5px 6px #7c7c7c;
-}
-
-.up {
-  display: flex;
 }
 
 iframe {
@@ -80,8 +94,10 @@ img {
 /* 新增的 */
 
 .Related-videos {
-  display: flex;
   flex-direction: row;
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .Related-videos .img-ob {
@@ -89,9 +105,8 @@ img {
 }
 
 .Related-videos img {
-  width: 200px;
-  height: 200px;
-  margin-left: 10px;
+  width: 60%;
+  height: 40%;
 }
 
 .footer {
@@ -121,14 +136,27 @@ img {
   .down {
     margin-top: 30px;
   }
+
   .play {
     width: 100%;
   }
-  .word {
-    width: 100%;
+
+ 
+}
+@media screen and (max-width: 980px) {
+  .Related-videos{
+    display: block;
+  }
+  .play-list{
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .Related-videos img {
+    width: 80%;
+    height: 40%;
   }
 }
-
 @media screen and (max-width: 700px) {
   .title {
     margin-left: 0%;
@@ -141,6 +169,12 @@ img {
   .search {
     width: 100%;
     margin-left: 10%;
+  }
+  .video{
+    width: 90%;
+  }
+  .word{
+    width: 90%;
   }
 }
 
