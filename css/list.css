@@ -37,13 +37,15 @@ body {
 /* content */
 
 /* 左邊捷徑  版型  */
+/* 兩個主題 */
+.title{
+  display: inline;
+}
 
 .search {
   width: 100%;
 }
-.title{
-  display: inline;
-}
+/* 搜尋 */
 .sbox {
   width: 56%;
   height: 50%;
@@ -58,7 +60,7 @@ body {
   height: 25px;
   border-radius: 50%;
 }
-
+/* 三個類別 */
 ul {
   /* 取消ul預設的內縮及樣式 */
   margin: 0;
