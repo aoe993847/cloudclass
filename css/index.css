@@ -102,6 +102,7 @@
     display: flex;
 }
 
+
 .mbutton {
     height: 600px;
     width: 560px;
@@ -447,6 +448,10 @@ div:hover.Otext {
         }
 }
 @media screen and (max-width:499px){
+    .stext
+    {
+        
+    }
     .ctp{
         display: none;
     
@@ -511,7 +516,37 @@ div:hover.Otext {
         margin-left: 3%;
         }
 }
-
-
-
+@media screen and (min-width:1600px) {
+    .presentation {
+        margin-left: 21%;
+      
+    }
+    .mbutton {
+        margin-left: 65%;
+      
+    }
+    
+}
+@media screen and (min-width:2000px) {
+    .presentation {
+        margin-left: 30%;
+      
+    }
+    .mbutton {
+        margin-left: 80%;
+      
+    }
+    
+}
+@media screen and (min-width:2200px) {
+    .presentation {
+        margin-left: 30%;
+      
+    }
+    .mbutton {
+        margin-left: 150%;
+      
+    }
+    
+}
 
