@@ -1,39 +1,94 @@
 <!DOCTYPE html>
 <html lang="ZH-TW">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>雲端課堂|首頁</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/index.css">
-    <!-- icon -->
+    <link rel="icon" href="/img/logo.ico" type="image/x-icon">
+
+    <!-- 外掛CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
-    <!-- 圖片輪播切換 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" /> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/sitenav.css">
 
 </head>
+
 <body>
-    
-    
-    <div class="carousel " >
+    <!--TODO:網站導覽列 start -->
+    <header class="header_area">
+        <div class="container-lg">
+            <nav class="navbar navbar-expand-lg navbar-color navbar-bg">
+                <a class="navbar-brand" href="index.html">
+                    <img src="/img/logo.ico" style="width: 50px; height: 50px;" alt="">
+                    &nbsp雲端學堂
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active"><a class="nav-link" href="index.html">首頁</a></li>
+                        <!-- <li class="nav-item"><a class="nav-link" href="#">XXX</a></li> -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="Tech.html">
+                                科技類
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="Tech.html#領導管理危機管理">領導管理/危機管理</a></li>
+                                <li><a class="dropdown-item" href="Tech.html#時間管理高效工作項目管理">時間管理/高效工作/項目管理</a></li>
+                                <li><a class="dropdown-item" href="Tech.html#邏輯思維思維導圖目標管理績效管理">邏輯思維/思維導圖/目標管理/績效管理</a>
+                                </li>
+                                <li><a class="dropdown-item" href="Tech.html#溝通談判有效會議">溝通/談判/有效會議</a></li>
+                                <li><a class="dropdown-item" href="Tech.html#轉型變革">轉型變革</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="Management.html">
+                                管理類
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">工業互聯網</a></li>
+                                <li><a class="dropdown-item" href="#">人工智能類</a></li>
+                                <li><a class="dropdown-item" href="#">5G+物聯網類</a></li>
+                                <li><a class="dropdown-item" href="#">大數據/雲計算類</a></li>
+                                <li><a class="dropdown-item" href="#">AR/VR/MR類</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- 網站導覽列 end -->
+    <!--TODO:banner start-->
+    <div class="carousel ">
         <div class="contain ">
             <div class="single-item ">
-               <div class="slide slide-1 ">
+                <div class="slide slide-1 ">
                     <div class="cimage">
-                        <div id="container" ></div>
+                        <div id="container"></div>
                         <div style="display:none"></div>
-                        <div style="display:none" class="ele">WELCOEMEto</div>
-                        <div style="display:none"class="ele">B次雲端課堂</div>
+                        <div style="display:none" class="ele">WELCOME</div>
+                        <div style="display:none" class="ele">B次雲端課堂</div>
                     </div>
                 </div>
-                <div class="slide slide-2" ><img src="/img/1.jpg" class="cimage"></div>
-                <div class="slide slide-3" ><img src="/img/2.jpg"class="cimage" ></div>
-                <div class="slide slide-4 "  >
-                    
+                <div class="slide slide-2"><img src="/img/1.jpg" class="cimage"></div>
+                <div class="slide slide-3"><img src="/img/2.jpg" class="cimage"></div>
+                <div class="slide slide-4 ">
                     <div class="circle">
-                        
                         <p class="ctp mv1">B</p>
                         <p class="ctp mv2">次</p>
                         <p class="ctp mv3">雲</p>
@@ -42,80 +97,91 @@
                         <p class="ctp mv6">次</p>
                         <p class="ctp mv7">雲</p>
                         <p class="ctp mv8">端</p>
-
                     </div>
-                   
                 </div>
-        </div>            
-     </div>
+            </div>
+        </div>
+        <!--banner end -->
+        <div class="maintext">
+            <div>
+                <div class="mbutton">
+                    <img src="/img/5.jpg" class="presentation2">
+                    <p class="mtext">B次</p>
+                    <p class="mtext1">雲&thinsp;&thinsp; 端</p>
+                    <div class="select2 move4 ">
+                        <div class="stext "><a href="/Management.html"> &ensp;管理</a></div>
+                        <div class="Options2 corner type">
+                            <div class="Otext radiustop"> &ensp;工業互聯網類</div>
+                            <div class="Otext"> &ensp;人工智能類</div>
+                            <div class="Otext"> &ensp;5G+物聯網類</div>
+                            <div class="Otext"> &ensp;大數據/雲計算類</div>
+                            <div class="Otext radiusbottom">&ensp; AR/VR/MR類</div>
+                        </div>
+                    </div>
+                    <div class="select2 move2 ">
+                        <div class="stext bigtype">&ensp;學習<p>直通車</div>
+                        <div class="Options2 corner type2">
+                            <div class="Otext radiustop"> &ensp;培訓課程學習記錄、 &ensp;課程推薦</div>
+                            <div class="Otext"> &ensp;課程反饋及評鑑</div>
+                            <div class="Otext radiusbottom"> &ensp;講師評鑑、學分管理</div>
+                        </div>
+                    </div>
+                    <div class="select2 move ">
+                        <div class="stext ">
+                            &ensp;雲端<p>&ensp;課程</p>
+                        </div>
+                        <div class="Options2 corner type4">
+                            <div class="Otext radiustop"> &ensp;用戶學習數據</div>
+                            <div class="Otext"> &ensp;用戶學習行為</div>
+                            <div class="Otext"> &ensp;消息或課程推送</div>
+                            <div class="Otext radiusbottom"> &ensp;用戶回饋</div>
+                        </div>
+                    </div>
+                    <div class="select2 move5">
+                        <div class="stext ">
+                            &ensp; 富學<p>&ensp; 寶典</p>
+                        </div>
+                        <div class="Options2 corner type5">
+                            <div class="Otext radiustop radiusbottom"> &ensp;導入富學寶典的學習記錄</div>
+                        </div>
+                    </div>
+                    <div class="select2 move3 ">
+                        <div class="stext "><a href="/Tech.html">&ensp;科技</a> </div>
+                        <div class="Options2 corner type3">
+                            <div class="Otext radiustop"> &ensp;領導管理/危機管理</div>
+                            <div class="Otext"> &ensp;時間管理/ 高效工作/項目管理</div>
+                            <div class="Otext"> &ensp;邏輯思維/ 思維導圖/ 目標管理/ 績效管理</div>
+                            <div class="Otext"> &ensp;溝通/ 談判/ 有效會議</div>
+                            <div class="Otext radiusbottom"> &ensp;轉型變革</div>
+                        </div>
+                    </div>
 
-     <div class="maintext"  >
-        
-         <div>
-             <div class="mbutton">
-                <img src="/img/5.jpg" class="presentation2">
-                <p class="mtext">B次</p>
-                <p class="mtext1">雲&thinsp;&thinsp; 端</p>
-                
-                <div class="select2 move4 ">
-                    <div class="stext "><a href="/Management.html"> &ensp;管理</a></div>
-                    <div class="Options2 corner type">
-                        <div class="Otext radiustop"> &ensp;工業互聯網類</div>
-                        <div class="Otext"> &ensp;人工智能類</div>
-                        <div class="Otext"> &ensp;5G+物聯網類</div>
-                        <div class="Otext"> &ensp;大數據/雲計算類</div>
-                        <div class="Otext radiusbottom">&ensp; AR/VR/MR類</div>
-                    </div></div>
-                    
-                        <div class="select2 move2 ">
-                            <div class="stext bigtype">&ensp;學習<p>直通車</div>
-                            <div class="Options2 corner type2">
-                                <div class="Otext radiustop"> &ensp;培訓課程學習記錄、 &ensp;課程推薦</div>
-                                <div class="Otext"> &ensp;課程反饋及評鑑</div>
-                                <div class="Otext radiusbottom"> &ensp;講師評鑑、學分管理</div>
-                            </div></div>
-                        <div class="select2 move ">
-                            <div class="stext "> &ensp;雲端<p>&ensp;課程</p></div>
-                            <div class="Options2 corner type4">
-                                <div class="Otext radiustop"> &ensp;用戶學習數據</div>
-                                <div class="Otext"> &ensp;用戶學習行為</div>
-                                <div class="Otext"> &ensp;消息或課程推送</div>
-                                <div class="Otext radiusbottom"> &ensp;用戶回饋</div>
-                                
-                            </div></div>
+                </div>
 
-                            <div class="select2 move5">
-                                <div class="stext "> &ensp; 富學<p>&ensp; 寶典</p></div>
-                                <div class="Options2 corner type5">
-                                    <div class="Otext radiustop radiusbottom"> &ensp;導入富學寶典的學習記錄</div>
-                                </div>
-                            </div>
-                                <div class="select2 move3 ">
-                                    <div class="stext "><a href="/Tech.html">&ensp;科技</a> </div>
-                                    <div class="Options2 corner type3">
-                                        <div class="Otext radiustop"> &ensp;領導管理/危機管理</div>
-                                        <div class="Otext"> &ensp;時間管理/ 高效工作/項目管理/ 危機管理</div>
-                                        <div class="Otext"> &ensp;邏輯思維/ 思維導圖/ 目標管理/ 績效管理</div>
-                                        <div class="Otext"> &ensp;溝通/ 談判/ 有效會議</div>
-                                        <div class="Otext radiusbottom"> &ensp;轉型變革</div>
-                                    </div></div>
-               
-             </div>
-             
-         </div>
-        <img src="/img/4.jpg"  class="presentation"> 
-        
-    </div>
+            </div>
+            <img src="/img/4.jpg" class="presentation">
+
+        </div>
 
 
-   <footer class="footer">
-        <div class="footertext"><p>Copyright © 2020 inline Ltd. All Rights Reserved</p>
-            <p >Terms of Use/Privacy PolicyPowered by inlineVersion 7.25.1</p></div>
+        <footer class="footer">
+            <div class="footertext">
+                <p>Copyright © 2020 inline Ltd. All Rights Reserved</p>
+                <p>Terms of Use/Privacy PolicyPowered by inlineVersion 7.25.1</p>
+            </div>
 
-    </footer> 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-    <script src="/js/slick.js"></script>
-    <script src="js/index.js"></script>
+        </footer>
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+            crossorigin="anonymous"></script>
+        <script src="/js/slick.js"></script>
+
+        <script src="js/sitenav.js"></script>
+        <script src="js/index.js"></script>
 </body>
+
 </html>

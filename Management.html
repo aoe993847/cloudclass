@@ -4,14 +4,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>雲端課堂|管理類別主題</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <title>雲端課堂|管理類</title>
+    <link rel="icon" href="/img/logo.ico" type="image/x-icon">
+
+    <!-- 外掛CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="/css/list.css">
-    <link rel="stylesheet" href="/js/list.js">
+    <link rel="stylesheet" href="/css/sitenav.css">
+
 </head>
 
 <body>
+    <!--TODO:網站導覽列 start -->
+    <header class="header_area">
+        <div class="container-lg">
+            <nav class="navbar navbar-expand-lg navbar-color navbar-bg">
+                <a class="navbar-brand" href="index.html">
+                    <img src="/img/logo.ico" style="width: 50px; height: 50px;" alt="">
+                    &nbsp雲端學堂
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="index.html">首頁</a></li>
+                        <!-- <li class="nav-item"><a class="nav-link" href="#">XXX</a></li> -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="Tech.html">
+                                科技類
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="Tech.html#領導管理危機管理">領導管理/危機管理</a></li>
+                                <li><a class="dropdown-item" href="Tech.html#時間管理高效工作項目管理">時間管理/高效工作/項目管理</a></li>
+                                <li><a class="dropdown-item" href="Tech.html#邏輯思維思維導圖目標管理績效管理">邏輯思維/思維導圖/目標管理/績效管理</a>
+                                </li>
+                                <li><a class="dropdown-item" href="Tech.html#溝通談判有效會議">溝通/談判/有效會議</a></li>
+                                <li><a class="dropdown-item" href="Tech.html#轉型變革">轉型變革</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown active">
+                            <a class="nav-link dropdown-toggle" href="Management.html">
+                                管理類
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">工業互聯網</a></li>
+                                <li><a class="dropdown-item" href="#">人工智能類</a></li>
+                                <li><a class="dropdown-item" href="#">5G+物聯網類</a></li>
+                                <li><a class="dropdown-item" href="#">大數據/雲計算類</a></li>
+                                <li><a class="dropdown-item" href="#">AR/VR/MR類</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- 網站導覽列 end -->
     <div class="Web_Content">
         <div class="Left_Sidebar">
             <div class="title">
@@ -380,5 +438,21 @@
             </div>
         </footer>
     </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">123</div>
+            <div class="col">456</div>
+        </div>
+    </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+
+    <script src="/js/sitenav.js"></script>
 </body>
+
 </html>
